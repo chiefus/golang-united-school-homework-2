@@ -35,7 +35,7 @@ func calcCircleSquare(radius float64) float64 {
 }
 
 func calcTriangleSquare(sideLen float64) float64 {
-	return 0.5 * sideLen * sideLen
+	return sideLen * sideLen * math.Sqrt(3) / 4
 }
 
 func calcSquareSquare(sideLen float64) float64 {
